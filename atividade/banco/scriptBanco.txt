@@ -1,8 +1,0 @@
-CREATE DATABASE escola;
-USE escola;
-
-CREATE TABLE cursos(
-	idCurso INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    nomeCurso VARCHAR(45) NOT NULL,
-    cargaHorariaCurso INT UNSIGNED NOT NULL
-);
